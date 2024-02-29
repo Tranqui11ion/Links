@@ -132,11 +132,12 @@ main {
 
  footer {
     display: flex;
+    flex-direction: column;
     position:fixed;
     bottom: 0;
     position: relative;
     justify-content: center;
-    align-items:baseline;
+    align-self:center;
     flex: s;
     margin-top: auto;
     font-size: .7em;
